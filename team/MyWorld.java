@@ -23,5 +23,16 @@ public class MyWorld extends World
         
         Banana banana = new Banana();
         addObject(banana, 600, 100);
+        
+        Heart heart = new Heart();
+        addObject(heart, 350, 360);
+        
+        Heart heart2 = new Heart();
+        addObject(heart2, 450, 360);
+        
+        Heart heart3 = new Heart();
+        addObject(heart3, 550, 360);
+        
+        int lives = 3;
     }
 }
