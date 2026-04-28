@@ -32,7 +32,5 @@ public class MyWorld extends World
         
         Heart heart3 = new Heart();
         addObject(heart3, 550, 360);
-        
-        int lives = 3;
     }
 }
